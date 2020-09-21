@@ -1,0 +1,34 @@
+body
+{
+    margin: 0;
+    direction: rtl;
+
+    a
+    {color: whitesmoke;}
+    a:hover{text-decoration: none;}
+}
+
+
+@import "Vendor/header/header";
+@import "Vendor/NAV/Section1-Home/Section1-Home.scss";
+
+
+
+// Pages ABOUT 
+// Style Sass 
+@import "Vendor-Pages/ABOUT";
+
+// Pages Book-online 
+// Style Sass 
+@import "Vendor-Pages/Book-online";
+
+
+// Pages PRODUCTS 
+// Style Sass 
+@import "Vendor-Pages/PRODUCTS";
+
+
+
+
+
+@import "Vendor/footer/footer";

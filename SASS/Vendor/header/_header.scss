@@ -1,0 +1,483 @@
+header
+{
+    background: #1c1c1a;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    border-bottom: 3px solid #8b8b8a78;
+
+
+.card-NavBar
+{
+    .navbar
+    {
+        background: #1c1c1a;
+
+
+        .navbar-brand
+        {   text-align: center;
+            width: 20%;
+            img
+            {
+                width: 25%;
+            }
+
+            span
+            {
+                display: block;
+                font-size: larger;
+                letter-spacing: 3px;
+                text-shadow: 2px 1px 3px #3d4d63;
+            }
+        }
+        .navbar-brand:hover
+        {
+            color: #d1d2d2;
+        }
+
+
+.navbar-toggler
+{
+    .navbar-toggler-icon
+    {
+        svg
+        {
+            
+    color: whitesmoke;
+    font-size: 30px;
+
+        }
+    }
+}
+
+
+
+        .collapse
+        {
+            .navbar-nav
+            {    
+                display: flex;
+                justify-content: space-evenly;
+                padding: 0;
+                width: 60%;
+
+                .nav-item
+                {
+                    .nav-link
+                    {
+                        color: whitesmoke;
+                        transition: .5s;
+                    }
+
+                    .nav-link:hover
+                    {
+                        text-shadow: 0px 20px 2px #e0e0de;
+                        border-top: solid #d6d5d3;
+                        margin: 1em;
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+
+
+}
+
+
+
+@media (min-width: 1200px) 
+{ 
+  
+    header
+    {
+        background: #1c1c1a;
+        height: auto;
+        overflow: hidden;
+        margin: auto;
+    
+    
+    .card-NavBar
+    {
+        .navbar
+        {
+            background: #1c1c1a;
+    
+    
+            .navbar-brand
+            {   text-align: center;
+                width: 20%;
+                font-family: 'Poller One', cursive;
+                img
+                {
+                    width: 25%;
+                }
+    
+                span
+                {
+                    display: block;
+                    font-size: larger;
+                    letter-spacing: 3px;
+                    text-shadow: 2px 1px 3px #3d4d63;
+                }
+            }
+    
+    
+    .navbar-toggler
+    {
+        .navbar-toggler-icon
+        {
+            svg
+            {
+                
+        color: whitesmoke;
+        font-size: 30px;
+    
+            }
+        }
+    }
+    
+    
+    
+            .collapse
+            {
+                .navbar-nav
+                {    
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 0;
+                    width: 60%;
+    
+                    .nav-item
+                    {
+                        .nav-link
+                        {
+                            color: whitesmoke;
+                        }
+                    }
+                }
+            }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        }
+    }
+    
+    
+    
+    }
+ 
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px)
+{ 
+    header
+    {
+        background: #1c1c1a;
+        height: auto;
+        overflow: hidden;
+        margin: auto;
+    
+    
+    .card-NavBar
+    {
+        .navbar
+        {
+            background: #1c1c1a;
+    
+    
+            .navbar-brand
+            {   text-align: center;
+                width: 20%;
+                img
+                {
+                    width: 35%;
+                }
+    
+                span
+                {
+                    display: block;
+                    font-size: larger;
+                    letter-spacing: 3px;
+                    text-shadow: 2px 1px 3px #3d4d63;
+                }
+            }
+    
+    
+    .navbar-toggler
+    {
+        .navbar-toggler-icon
+        {
+            svg
+            {
+                
+        color: whitesmoke;
+        font-size: 30px;
+    
+            }
+        }
+    }
+    
+    
+    
+            .collapse
+            {
+                .navbar-nav
+                {    
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 0;
+                    width: 100%;
+                    border-top: 1px solid #a8a5a19e;
+    
+                    .nav-item
+                    {
+                        .nav-link
+                        {
+                            color: whitesmoke;
+                        }
+                    }
+                }
+            }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        }
+    }
+    
+    
+    
+    }    
+  
+}
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px)
+{ 
+    header
+    {
+        background: #1c1c1a;
+        height: auto;
+        overflow: hidden;
+        margin: auto;
+    
+    
+    .card-NavBar
+    {
+        .navbar
+        {
+            background: #1c1c1a;
+    
+    
+            .navbar-brand
+            {   text-align: center;
+                width: 20%;
+                img
+                {
+                    width: 40%;
+                }
+    
+                span
+                {
+                    display: block;
+                    font-size: larger;
+                    letter-spacing: 3px;
+                    text-shadow: 2px 1px 3px #3d4d63;
+                }
+            }
+    
+    
+    .navbar-toggler
+    {
+        .navbar-toggler-icon
+        {
+            svg
+            {
+                
+        color: whitesmoke;
+        font-size: 30px;
+    
+            }
+        }
+    }
+    
+    
+    
+            .collapse
+            {
+                .navbar-nav
+                {    
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 0;
+                    width: 100%;
+                    border-top: 1px solid #a8a5a19e;
+    
+                    .nav-item
+                    {
+                        .nav-link
+                        {
+                            color: whitesmoke;
+                        }
+                    }
+                }
+            }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        }
+    }
+    
+    
+    
+    }    
+  
+}
+
+
+
+
+
+@media(max-width: 575.98px)
+{ 
+    header
+    {
+        background: #1c1c1a;
+        height: auto;
+        overflow: hidden;
+        margin: auto;
+    
+    
+    .card-NavBar
+    {
+        .navbar
+        {
+            background: #1c1c1a;
+    
+    
+            .navbar-brand
+            {   
+                text-align: center;
+                width: 50%;
+                margin-right: 0;
+                img
+                {
+                    width: 35%;
+                }
+    
+                span
+                {
+                    display: block;
+                    font-size: larger;
+                    letter-spacing: 3px;
+                    text-shadow: 2px 1px 3px #3d4d63;
+                }
+            }
+    
+    
+    .navbar-toggler
+    {
+        .navbar-toggler-icon
+        {
+            svg
+            {
+                
+        color: whitesmoke;
+        font-size: 30px;
+    
+            }
+        }
+    }
+    
+    
+    
+            .collapse
+            {
+                .navbar-nav
+                {    
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 0;
+                    width: 100%;
+                    border-top: 1px solid #a8a5a19e;
+    
+                    .nav-item
+                    {
+                        .nav-link
+                        {
+                            color: whitesmoke;
+                        }
+                    }
+                }
+            }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        }
+    }
+    
+    
+    
+    }    
+  
+}

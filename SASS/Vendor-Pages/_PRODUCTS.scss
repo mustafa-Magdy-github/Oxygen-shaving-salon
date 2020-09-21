@@ -1,0 +1,62 @@
+.Products
+{
+    background-image: url(https://images.pexels.com/photos/3998406/pexels-photo-3998406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+    height: auto;
+    overflow: hidden;
+    background-size: cover;
+
+
+
+
+ .container
+ {
+     .row
+     {
+        align-items: center;
+
+         .card-text
+         {
+            div
+            {    margin: 3em 0em;
+                h1
+                {
+                    padding: .5em 0em;
+                    font-family: 'Kufam', cursive;
+                    font-size: 30px;
+                    font-style: italic;
+                    text-shadow: 0px 0px 6px #CDDC39;
+                    color: whitesmoke;
+                    border-bottom: 1px solid;
+                }
+            }
+         }
+
+
+         .card
+         {  
+            border: 0;
+            background: #fff0;
+            text-align: center;
+             .card-img-top
+             {
+                margin: 1em;
+                width: 80%;
+                margin: auto;
+                transition: .3s;
+             }
+
+             .card-img-top:hover
+             {
+                     transform: scale(1.2);
+             }
+         }
+     }
+ }
+
+
+
+}
+
+
+
+
